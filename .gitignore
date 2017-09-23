@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But not these files...
+!.php_cs
+!.env
+!.gitignore
+!.htaccess
+!.editorconfig
+!composer.json
+!docker-compose.yml
+!readme.md
+!LICENSE
+!mysite/**/*
+
+# ...even if they are in subdirectories
+!*/*
