@@ -1,19 +1,19 @@
 {
-  "name": "silverstripe-kickstarter",
-  "description": "Quick and easy docker-compose setup to get working with Silverstripe 4",
-  "require": {
-    "silverstripe/recipe-plugin": "^0.1",
-    "silverstripe/recipe-cms": "^1.0"
-  },
-  "extra": {
-    "branch-alias": {
-      "4.x-dev": "4.0.x-dev",
-      "dev-master": "5.x-dev"
-    }
-  },
-  "config": {
-    "process-timeout": 600
-  },
-  "prefer-stable": true,
-  "minimum-stability": "dev"
+    "name": "silverstripe-kickstarter",
+    "description": "Quick and easy docker-compose setup to get working with Silverstripe 4",
+    "require": {
+        "silverstripe/recipe-plugin": ">=0.1@dev <1.0",
+        "silverstripe/recipe-cms": "1.0.x-dev"
+    },
+    "extra": {
+        "branch-alias": {
+            "4.x-dev": "4.0.x-dev",
+            "dev-master": "5.x-dev"
+        }
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
