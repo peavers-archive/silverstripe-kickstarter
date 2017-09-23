@@ -3,18 +3,19 @@ A rapid development environment for working with Silverstripe 4 using docker-com
 on your local development box other than [docker-compose](https://docs.docker.com/compose/install/).
 
 ## Get started
-Clone the project
+
+#### Clone the project
 ```bash
 git clone https://github.com/peavers/silverstripe-kickstarter.git
 ```
 
-Start the servers
+#### Start the servers
 ```bash
 cd silverstripe-kickstarter && \
 docker-compose up -d
 ```
 
-Run `composer update`
+#### Install/Update Silverstripe
 ```bash
 docker exec -it php.development /bin/bash
 
